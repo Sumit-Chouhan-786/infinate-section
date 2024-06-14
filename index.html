@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>infinite</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <section class="infinite_section position_relative">
+        <img class="top_left_circle" src="./assets/images/png/circle_top_left.png" alt="circle_img">
+        <div class="container" id="container">
+            <h2 class="fw_regular infinite_heading">
+                Why Choose <span class="fw_extraBold text_offBlack">Infinity</span>
+            </h2>
+            <p class="infinite_para">The table highlights key features and benefits, making it easy for potential
+                clients to understand what
+                sets Infinity apart.</p>
+            <div class="overflow_x_scroll">
+                <div class="infinite_grid_container">
+                    <!-- row 1 -->
+                    <div class="table_heading border_bottom p_24">Feature</div>
+                    <div class="table_heading fw_extraBold text_offBlack  border_bottom p_24 bg_skyblue radish_top">
+                        Infinity</div>
+                    <div class="table_heading border_bottom p_24">Competitor B</div>
+                    <div class="table_heading border_bottom p_24">Competitor A</div>
+                    <!-- row 2 -->
+                    <div class="p_24 border_bottom row" id="row-0">
+                        <div onclick="ShowPara1()" class="d_flex gap_md_30 gap_20 cursor_pointer">
+                            <span class="circle circle1"></span>
+                            <h3 class="table_sub_heading text_nowrap">Cutting-Edge Technology</h3>
+                        </div>
+                    </div>
+                    <div class="p_24 border_bottom bg_skyblue">
+                        <h3 class="fs_base fw_extraBold text_offBlack">Advanced AI & ML Technology</h3>
+                        <p class="fs_sm paragraph_Row1 para_hidden opacity_80 fw_regular pt_14 leading_normal">
+                            Employs cutting-edge artificial intelligence and
+                            machine learning technology to deliver superior performance.
+                        </p>
+                    </div>
+                    <div class="p_24 border_bottom">
+                        <h3 class="table_sub_heading">Outdated technology</h3>
+                        <p class="fs_sm paragraph_Row1 para_hidden opacity_80 fw_regular pt_14 leading_normal">
+                            Outdated technology that struggles to keep up with current advancements, resulting in
+                            suboptimal
+                            performance.
+                        </p>
+                    </div>
+                    <div class="p_24 border_bottom">
+                        <h3 class="table_sub_heading">Limited AI capabilities</h3>
+                        <p class="fs_sm paragraph_Row1 para_hidden opacity_80 fw_regular pt_14 leading_normal">
+                            Limited AI capabilities that restrict the potential for advanced data analysis and
+                            automation,
+                            hindering innovation.
+                        </p>
+                    </div>
+                    <!-- row 3 -->
+                    <div class="p_24 border_bottom row" id="row-1">
+                        <div onclick="ShowPara2()" class="d_flex gap_md_30 gap_20 cursor_pointer">
+                            <span class="circle circle2"></span>
+                            <h3 class="table_sub_heading">Tailored Solutions</h3>
+                        </div>
+                    </div>
+                    <div class="p_24 border_bottom bg_skyblue">
+                        <h3 class="fs_base fw_extraBold text_offBlack">Customizable for unique business needs</h3>
+                        <p class="fs_sm paragraph_Row2 para_hidden opacity_80 fw_regular pt_14 leading_normal">
+                            Employs cutting-edge artificial intelligence and
+                            machine learning technology to deliver superior performance.
+                        </p>
+                    </div>
+                    <div class="p_24 border_bottom">
+                        <h3 class="table_sub_heading">One-size-fits-all approach</h3>
+                        <p class="fs_sm paragraph_Row2 para_hidden opacity_80 fw_regular pt_14 leading_normal">
+                            Employs cutting-edge artificial intelligence and
+                            machine learning technology to deliver superior performance.
+                        </p>
+                    </div>
+                    <div class="p_24 border_bottom">
+                        <h3 class="table_sub_heading">Limited options</h3>
+                        <p class="fs_sm paragraph_Row2 para_hidden opacity_80 fw_regular pt_14 leading_normal">
+                            Employs cutting-edge artificial intelligence and
+                            machine learning technology to deliver superior performance.
+                        </p>
+                    </div>
+                    <!-- row 4 -->
+                    <div class="p_24 border_bottom row" id="row-2">
+                        <div onclick="ShowPara3()" class="d_flex gap_md_30 gap_20 cursor_pointer">
+                            <span class="circle circle3"></span>
+                            <h3 class="table_sub_heading">Scalability</h3>
+                        </div>
+                    </div>
+                    <div class="p_24 border_bottom bg_skyblue">
+                        <h3 class="fs_base fw_extraBold text_offBlack">Seamlessly scales with your business growth</h3>
+                        <p class="fs_sm paragraph_Row3 para_hidden opacity_80 fw_regular pt_14 leading_normal">
+                            Employs cutting-edge artificial intelligence and
+                            machine learning technology to deliver superior performance.
+                        </p>
+                    </div>
+                    <div class="p_24 border_bottom">
+                        <h3 class="table_sub_heading">Limited scalability</h3>
+                        <p class="fs_sm paragraph_Row3 para_hidden opacity_80 fw_regular pt_14 leading_normal">
+                            Employs cutting-edge artificial intelligence and
+                            machine learning technology to deliver superior performance.
+                        </p>
+                    </div>
+                    <div class="p_24 border_bottom">
+                        <h3 class="table_sub_heading">Difficult to scale</h3>
+                        <p class="fs_sm paragraph_Row3 para_hidden opacity_80 fw_regular pt_14 leading_normal">
+                            Employs cutting-edge artificial intelligence and
+                            machine learning technology to deliver superior performance.
+                        </p>
+                    </div>
+                    <!-- row 5 -->
+                    <div class="p_24 border_bottom row" id="row-3">
+                        <div onclick="ShowPara4()" class="d_flex gap_md_30 gap_20 cursor_pointer">
+                            <span class="circle circle4"></span>
+                            <h3 class="table_sub_heading">Efficiency & Productivity</h3>
+                        </div>
+                    </div>
+                    <div class="p_24 border_bottom bg_skyblue">
+                        <h3 class="fs_base fw_extraBold text_offBlack">Automates tasks, freeing up resources for
+                            initiatives</h3>
+                        <p class="fs_sm paragraph_Row4 para_hidden opacity_80 fw_regular pt_14 leading_normal">
+                            Employs cutting-edge artificial intelligence and
+                            machine learning technology to deliver superior performance.
+                        </p>
+                    </div>
+                    <div class="p_24 border_bottom">
+                        <div class="table_sub_heading">Basic automation capabilities</div>
+                        <p class="fs_sm paragraph_Row4 para_hidden opacity_80 fw_regular pt_14 leading_normal">
+                            Employs cutting-edge artificial intelligence and
+                            machine learning technology to deliver superior performance.
+                        </p>
+                    </div>
+                    <div class="p_24 border_bottom">
+                        <div class="table_sub_heading">Minimal automation features</div>
+                        <p class="fs_sm paragraph_Row4 para_hidden opacity_80 fw_regular pt_14 leading_normal">
+                            Employs cutting-edge artificial intelligence and
+                            machine learning technology to deliver superior performance.
+                        </p>
+                    </div>
+                    <!-- row 6 -->
+                    <div class="p_24 border_bottom row" id="row-4">
+                        <div onclick="ShowPara5()" class="d_flex gap_md_30 gap_20 cursor_pointer">
+                            <span class="circle circle5"></span>
+                            <p class="table_sub_heading">Data-Driven Insights</p>
+                        </div>
+                    </div>
+                    <div class="p_24 border_bottom bg_skyblue">
+                        <h3 class="fs_base fw_extraBold text_offBlack">Provides actionable insights informed
+                            decision-making</h3>
+                        <p class="fs_sm paragraph_Row5 para_hidden opacity_80 fw_regular pt_14 leading_normal">
+                            Employs cutting-edge artificial intelligence and
+                            machine learning technology to deliver superior performance.
+                        </p>
+                    </div>
+                    <div class="p_24 border_bottom">
+                        <h3 class="table_sub_heading">Limited data insights</h3>
+                        <p class="fs_sm paragraph_Row5 para_hidden opacity_80 fw_regular pt_14 leading_normal">
+                            Employs cutting-edge artificial intelligence and
+                            machine learning technology to deliver superior performance.
+                        </p>
+                    </div>
+                    <div class="p_24 border_bottom">
+                        <h3 class="table_sub_heading">Basic analytics</h3>
+                        <p class="fs_sm paragraph_Row5 para_hidden opacity_80 fw_regular pt_14 leading_normal">
+                            Employs cutting-edge artificial intelligence and
+                            machine learning technology to deliver superior performance.
+                        </p>
+                    </div>
+                    <!-- row 7 -->
+                    <div class="p_24 row" id="row-5">
+                        <div onclick="ShowPara6()" class="d_flex gap_md_30 gap_20 cursor_pointer">
+                            <span class="circle circle6"></span>
+                            <h3 class="table_sub_heading">Competitive Advantage</h3>
+                        </div>
+                    </div>
+                    <div class="p_24 radish_bottom bg_skyblue">
+                        <h3 class="fs_base fw_extraBold text_offBlack">Positions you as an innovation leader</h3>
+                        <p class="fs_sm paragraph_Row6 para_hidden opacity_80 fw_regular pt_14 leading_normal">
+                            Employs cutting-edge artificial intelligence and
+                            machine learning technology to deliver superior performance.
+                        </p>
+                    </div>
+                    <div class="p_24">
+                        <h3 class="table_sub_heading">Struggles to compete with market leaders</h3>
+                        <p class="fs_sm paragraph_Row6 para_hidden opacity_80 fw_regular pt_14 leading_normal">
+                            Employs cutting-edge artificial intelligence and
+                            machine learning technology to deliver superior performance.
+                        </p>
+                    </div>
+                    <div class="p_24">
+                        <h3 class="table_sub_heading">Average market positioning</h3>
+                        <p class="fs_sm paragraph_Row6 para_hidden opacity_80 fw_regular pt_14 leading_normal">
+                            Employs cutting-edge artificial intelligence and
+                            machine learning technology to deliver superior performance.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="d_flex justify_content_center"><button class="more_btn fw_semibold text_white">More
+                    Features</button></div>
+        </div>
+    </section>
+    <script>
+        for (let i = 1; i <= 6; i++) {
+            let paragraphs = document.querySelectorAll(`.paragraph_Row${i}`);
+            let circle = document.querySelectorAll(`.circle${i}`);
+
+            window[`ShowPara${i}`] = function () {
+                paragraphs.forEach(function (paragraph) {
+                    paragraph.classList.toggle('para_show');
+                });
+                circle.forEach(function (paragraph) {
+                    paragraph.classList.toggle('icon_change');
+                });
+
+            };
+        }
+    </script>
+
+</body>
+
+</html>
