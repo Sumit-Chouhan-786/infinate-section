@@ -41,7 +41,7 @@ body {
 .infinite_para {
   font-size: 16px;
   max-width: 570px;
-  margin: 16px auto 60px auto;
+  margin: 16px auto 24px auto;
   text-align: center;
 }
 
@@ -65,11 +65,11 @@ body {
 .para_hidden {
   max-height: 0 !important;
   overflow: hidden;
-  transition: all 0.6s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 .para_show {
   max-height: 150px !important;
-  transition: all 0.6s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 .border_bottom {
   border-bottom: 1px solid #e5e5e5;
@@ -77,8 +77,8 @@ body {
 .text_nowrap {
   text-wrap: nowrap;
 }
-.text_center{
-    text-align: center;
+.text_center {
+  text-align: center;
 }
 
 /* position classes */
@@ -225,8 +225,8 @@ body {
   padding-top: 14px;
 }
 
-.p_24 {
-  padding: 24px;
+.p_20 {
+  padding: 20px;
 }
 
 /* line height */
@@ -240,6 +240,9 @@ body {
 @media (min-width: 576px) {
   .infinite_heading {
     font-size: 32px;
+  }
+  .p_sm_24 {
+    padding: 24px;
   }
   .top_left_circle {
     display: unset;
@@ -285,6 +288,9 @@ body {
   }
   .top_left_circle {
     max-width: 220px;
+  }
+  .infinite_para {
+    margin: 16px auto 60px auto;
   }
 }
 @media (min-width: 1280px) {
