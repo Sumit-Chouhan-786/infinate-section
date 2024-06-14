@@ -204,24 +204,38 @@
                     Features</button></div>
         </div>
     </section>
-    <script>
-        for (let i = 1; i <= 6; i++) {
-            let paragraphs = document.querySelectorAll(`.paragraph_Row${i}`);
-            let circle = document.querySelectorAll(`.circle${i}`);
+   <script>
+       for (let i = 1; i <= 6; i++) {
+           let paragraphs = document.querySelectorAll(`.paragraph_Row${i}`);
+           let circle = document.querySelectorAll(`.circle${i}`);
 
-            window[`ShowPara${i}`] = function () {
-                paragraphs.forEach(function (paragraph) {
-                    paragraph.classList.toggle('para_show');
-                    paragraph.classList.add('pt_14');
-                });
-                circle.forEach(function (paragraph) {
-                    paragraph.classList.toggle('icon_change');
-                    
-                });
+           window[`ShowPara${i}`] = function () {
+               // Close all paragraphs and circles
+               for (let j = 1; j <= 6; j++) {
+                   let allParagraphs = document.querySelectorAll(`.paragraph_Row${j}`);
+                   let allCircles = document.querySelectorAll(`.circle${j}`);
 
-            };
-        }
-    </script>
+                   allParagraphs.forEach(function (paragraph) {
+                       paragraph.classList.remove('para_show');
+                       paragraph.classList.remove('pt_14');
+                   });
+                   allCircles.forEach(function (circle) {
+                       circle.classList.remove('icon_change');
+                   });
+               }
+
+               // Open the selected paragraph and circle
+               paragraphs.forEach(function (paragraph) {
+                   paragraph.classList.toggle('para_show');
+                   paragraph.classList.add('pt_14');
+               });
+               circle.forEach(function (paragraph) {
+                   paragraph.classList.toggle('icon_change');
+               });
+           };
+       }
+   </script>
+
 
 </body>
 
