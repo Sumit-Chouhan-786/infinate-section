@@ -53,7 +53,7 @@ body {
 }
 
 .table_sub_heading {
-  font-weight: 600;
+  font-weight: 500;
   font-size: 16px;
   color: #000000;
 }
@@ -76,6 +76,9 @@ body {
 }
 .text_nowrap {
   text-wrap: nowrap;
+}
+.text_center{
+    text-align: center;
 }
 
 /* position classes */
@@ -241,7 +244,7 @@ body {
   .top_left_circle {
     display: unset;
     position: absolute;
-    left: 0;
+    left: -2%;
     top: 0;
     max-width: 100px;
   }
@@ -262,6 +265,7 @@ body {
   }
   .top_left_circle {
     max-width: 150px;
+    top: 0;
   }
 }
 @media (min-width: 992px) {
